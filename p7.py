@@ -19,3 +19,7 @@ list.sort()#sort modified list in ascending order
 print(list)
 list.reverse()#reverse the sorted list
 print(list)
+
+#Making new list without harming the previous list
+l2 = list.insert(3,321)
+print(l2)
