@@ -21,4 +21,6 @@ power.update({"Original":4000,"King of vampire":2000})
 print(power)
 
 print(power.get("Monster"))
+# print(power.get["Monster"])
+# #[] shows the error in dictionary while () gives none when value does not exit in dictionary
 print(power.get("loard of vampire"))
