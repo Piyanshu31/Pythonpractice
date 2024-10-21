@@ -2,8 +2,8 @@
 power = {
     "halfling vampire":200,
     "vampire":400,
-    "Nobal vapire": 600,
-    "loard of vampire":1000,
+    "Noble vapire": 600,
+    "lord of vampire":1000,
     "King of vampire":1500,
     "Original":3000,
 }
@@ -23,4 +23,4 @@ print(power)
 print(power.get("Monster"))
 # print(power.get["Monster"])
 # #[] shows the error in dictionary while () gives none when value does not exit in dictionary
-print(power.get("loard of vampire"))
+print(power.get("lord of vampire"))
